@@ -30,8 +30,8 @@ wget https://ftp-master.debian.org/keys/release-11.asc -qO- | gpg --import --no-
 # 基本令格式
 sudo debootstrap --arch [平台] [发行版本代号] [目录] [源]
 
-sudo debootstrap --arch=armhf --foreign --keyring=./debian-release-11.gpg bullseye ./bullseye_rootfs  http://ftp.cn.debian.org/debian #arm32
-sudo debootstrap --arch=arm64 --foreign --keyring=./debian-release-11.gpg bullseye ./bullseye_rootfs  http://ftp.cn.debian.org/debian #arm64
+sudo debootstrap --arch=armhf --foreign --keyring=./debian-release-11.gpg bullseye ./bullseye_rootfs  https://mirrors.bfsu.edu.cn/debian/ #arm32
+sudo debootstrap --arch=arm64 --foreign --keyring=./debian-release-11.gpg bullseye ./bullseye_rootfs  https://mirrors.bfsu.edu.cn/debian/ #arm64
 
 # qemu-arm-static是其中的关键，能在 x86_64 主机系统下 chroot 到 arm 文件系统
 
@@ -45,7 +45,7 @@ sudo cp /usr/bin/qemu-aarch64-static ./bullseye_rootfs/usr/bin/  #arm64
 * –foreign：在与主机架构不相同时需要指定此参数，仅做初始化的解包
 * --keyring:：使用指定的key
 * bullseye：Debian 11的发行版本代号，[Debian 发行版本代号](https://www.debian.org/releases/)
-* <http://ftp.cn.debian.org/debian/> : 中国镜像服务器地址
+* <https://mirrors.bfsu.edu.cn/debian/> : 中国镜像服务器地址
 
 ## 进入文件系统
 
@@ -59,10 +59,10 @@ sudo cp /usr/bin/qemu-aarch64-static ./bullseye_rootfs/usr/bin/  #arm64
 
 function mnt() {
     echo "MOUNTING"
-    if [[ ${2} != *"/" ]]; then
-        path=${2}/
+    if [[ "${2}" != */ ]]; then
+        path="${2}/"
     else 
-        path=${2}
+        path="${2}"
     fi
     sudo mount -t proc /proc ${path}proc
     sudo mount -t sysfs /sys ${path}sys
@@ -73,10 +73,10 @@ function mnt() {
 
 function umnt() {
     echo "UNMOUNTING"
-    if [[ ${2} != *"/" ]]; then
-        path=${2}/
+    if [[ "${2}" != */ ]]; then
+        path="${2}/"
     else 
-        path=${2}
+        path="${2}"
     fi
     sudo umount ${path}proc
     sudo umount ${path}sys
@@ -113,7 +113,7 @@ fi
 ./mount.sh -u ./bullseye_rootfs/  #卸载
 ```
 
-* 执行脚本后，没有报错会进入文件系统，显示 `I have no name` ，这是正常的，这是因为根文件系统不完整，执行debootstrap二阶段，成功会自动删除这个文件夹
+* 执行脚本后，没有报错会进入文件系统，终端显示 `I have no name` ，这是正常的，这是因为根文件系统不完整，执行debootstrap二阶段，成功会自动删除这个文件夹
 
 ```shell
 debootstrap/debootstrap --second-stage
@@ -245,7 +245,7 @@ sed -i '/^#ExecStart=-\/sbin\/agetty.*/a\ExecStart=-\/sbin\/agetty -a root --kee
 
 * 在用户目录下已经root用户目录下.bashrc文件中启用 ll 等命令的别名，可直接使用ubuntu的文件
 * 创建模块存放目录 (可以在挂载之后进行，确认内核版本号)lib/modules/5.4.31，5.4.31是内核版本 挂载根文件之后uname -r查看，还要创建必要的模块文件(根据错误来创建)
-* 使用以下脚本定制文件系统
+### 使用脚本定制文件系统
 
 ```shell
 #!/bin/bash
@@ -267,8 +267,8 @@ apt install ntpdate openssh-server net-tools iputils-ping sudo wget curl usbutil
 
 export HOST=debian
 echo $HOST > /etc/hostname
-echo "127.0.0.1    localhost.localdomain localhost" > /etc/hosts
-echo "127.0.0.1    $HOST" > /etc/hosts
+echo "127.0.0.1    localhost.localdomain localhost" >> /etc/hosts
+echo "127.0.0.1    $HOST" >> /etc/hosts
 
 #add network interface
 cat >>/etc/network/interfaces <<EOF
