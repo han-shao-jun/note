@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "qt/03_Quazip库使用.md",
+                "file": "c语言提高/01_预处理和宏.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a644a57f9ade2fbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux系统使用/05_磁盘.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 238.5
   },
   "right": {
     "id": "8b41991008760fb7",
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "qt/03_Quazip库使用.md",
+                "file": "c语言提高/01_预处理和宏.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "qt/03_Quazip库使用.md",
+                "file": "c语言提高/01_预处理和宏.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "qt/03_Quazip库使用.md"
+                "file": "c语言提高/01_预处理和宏.md"
               }
             }
           }
@@ -134,7 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 219.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,15 +160,21 @@
   },
   "active": "d058ad61b07825b8",
   "lastOpenFiles": [
+    "c语言提高/02_可变参数.md",
+    "c语言提高/03_printf实现.md",
+    "c语言提高/01_预处理和宏.md",
+    "单片机/01_clion环境搭建.md",
+    "杂谈/01_嵌入式linux专业术语介绍.md",
+    "linux嵌入式/01_构建Debian根文件系统.md",
+    "linux系统使用/05_磁盘.md",
+    "qt/03_Quazip库使用.md",
     "qt/02_编译静态库.md",
     "qt/01_环境搭建.md",
-    "linux系统使用/05_磁盘.md",
     "linux系统使用/04_demsg.md",
     "linux系统使用/03_文件结构.md",
     "linux系统使用/02_重定向，管道.md",
     "linux系统使用/01_环境准备.md",
     "linux系统使用/杂七杂八/shell_bat小知识.md",
-    "linux嵌入式/01_构建Debian根文件系统.md",
     "存储器/00_存储器分类.md",
     "linux内核/00_initcal机制.md",
     "linux内核/01_系统调用.md",
@@ -165,15 +183,9 @@
     "linux嵌入式/00_系统启动基本流程.md",
     "u-boot/00_编译分析.md",
     "u-boot/01_快速使用.md",
-    "qt/03_Quazip库使用.md",
     "gcc编译器/00_源代码编译流程与编译器基本使用.md",
     "gcc编译器/06_Binutils的使用.md",
     "gcc编译器/05_链接器.md",
-    "gcc编译器/04_elf格式程序与程序的装载.md",
-    "gcc编译器/03_gnu__attribute__机制.md",
-    "gcc编译器/01_常用编译参数.md",
-    "gcc编译器/03_gnc__attribute__机制.md",
-    "linux嵌入式/07_阻塞和非阻塞 IO.md",
     "linux内核",
     "Pasted image 20240704224208.png",
     "Pasted image 20240702220033.png",
@@ -181,7 +193,7 @@
     "Pasted image 20240616170318.png",
     "存储器",
     "ARM架构",
-    "嵌入式杂谈",
+    "杂谈",
     "linux系统使用/杂七杂八",
     "计算机网络",
     "c语言提高",
