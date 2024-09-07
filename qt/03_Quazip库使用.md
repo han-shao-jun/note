@@ -22,7 +22,7 @@ git clone https://github.com/madler/zlib.git
 
 ![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/qt/03/qt_03_02.png)
 
-生成静态库和动态库
+在对应的项目右键点击生成，构建出静态库和动态库
 
 ![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/qt/03/qt_03_03.png)
 
@@ -156,6 +156,6 @@ endif()
 
 ![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/qt/03/qt_03_14.png)
 
-用clion打开项目选择MSVC编译器，编译运行能得到下图结构就说明库编译正常
+用clion打开项目选择MSVC编译器，编译运行能得到下图结构就说明库编译运行正常
 
 ![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/qt/03/qt_03_15.png)

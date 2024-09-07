@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "189ade7d440694b7",
+        "id": "ff2a727caef2b9a5",
         "type": "tabs",
         "children": [
           {
-            "id": "1479842ca97b5d02",
+            "id": "d058ad61b07825b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux嵌入式/01_构建Debian根文件系统.md",
+                "file": "qt/03_Quazip库使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 205.5
   },
   "right": {
     "id": "8b41991008760fb7",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux嵌入式/01_构建Debian根文件系统.md",
+                "file": "qt/03_Quazip库使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux嵌入式/01_构建Debian根文件系统.md",
+                "file": "qt/03_Quazip库使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux嵌入式/01_构建Debian根文件系统.md"
+                "file": "qt/03_Quazip库使用.md"
               }
             }
           }
@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,34 +146,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1479842ca97b5d02",
+  "active": "d058ad61b07825b8",
   "lastOpenFiles": [
+    "qt/02_编译静态库.md",
+    "qt/01_环境搭建.md",
+    "linux系统使用/05_磁盘.md",
+    "linux系统使用/04_demsg.md",
+    "linux系统使用/03_文件结构.md",
+    "linux系统使用/02_重定向，管道.md",
     "linux系统使用/01_环境准备.md",
+    "linux系统使用/杂七杂八/shell_bat小知识.md",
     "linux嵌入式/01_构建Debian根文件系统.md",
-    "linux嵌入式/03_构建BuildRoot根文件系统.md",
-    "linux嵌入式/02_构建BusyBox根文件系统.md",
-    "lwip/01_移植(NO_SYS).md",
-    "lwip/02_移植(FreeRTOS).md",
-    "u-boot/05_启动流程_board_r.md",
-    "u-boot/03_串口初始化.md",
-    "u-boot/02_启动流程_board_f.md",
-    "u-boot/01_启动准备.md",
-    "u-boot/01_快速使用.md",
-    "u-boot/00_编译分析.md",
-    "linux嵌入式/14_输入(INPUT)子系统.md",
-    "linux嵌入式/13_中断子系统.md",
-    "linux嵌入式/12_pinctrl 和 gpio 子系统.md",
-    "linux嵌入式/12_平台驱动中获取设备树属性.md",
-    "linux嵌入式/11_设备树.md",
-    "linux嵌入式/11_平台设备和平台驱动匹配流程.md",
-    "linux嵌入式/10_platform 设备驱动.md",
-    "linux嵌入式/09_并发与共享资源保护.md",
-    "linux嵌入式/08_异步IO与同步IO.md",
-    "linux嵌入式/07_阻塞和非阻塞 IO.md",
-    "linux嵌入式/06_动态内存分配.md",
-    "linux嵌入式/05_字符设备驱动.md",
-    "linux嵌入式/04_驱动入门知识.md",
+    "存储器/00_存储器分类.md",
+    "linux内核/00_initcal机制.md",
+    "linux内核/01_系统调用.md",
+    "linux系统编程/07_多进程通信.md",
+    "linux系统编程/06_多进程.md",
     "linux嵌入式/00_系统启动基本流程.md",
+    "u-boot/00_编译分析.md",
+    "u-boot/01_快速使用.md",
+    "qt/03_Quazip库使用.md",
+    "gcc编译器/00_源代码编译流程与编译器基本使用.md",
+    "gcc编译器/06_Binutils的使用.md",
+    "gcc编译器/05_链接器.md",
+    "gcc编译器/04_elf格式程序与程序的装载.md",
+    "gcc编译器/03_gnu__attribute__机制.md",
+    "gcc编译器/01_常用编译参数.md",
+    "gcc编译器/03_gnc__attribute__机制.md",
+    "linux嵌入式/07_阻塞和非阻塞 IO.md",
     "linux内核",
     "Pasted image 20240704224208.png",
     "Pasted image 20240702220033.png",

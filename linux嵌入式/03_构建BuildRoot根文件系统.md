@@ -25,7 +25,7 @@ tar -xvf buildroot-2024.05.tar.xz
 
 ## 配置
 
-buildroot 和 uboot、 Linux kernel 一样也支持图形化配置，输入如下命令即可打开图形化配 置界
+buildroot 和 uboot、 Linux kernel 一样也支持图形化配置，输入如下命令即可打开图形化配置界
 
 ```sh
 make meunconfig
@@ -46,19 +46,19 @@ make meunconfig
 
 2、配置 Toolchain
 
-此配置项用于配置交叉编译工具链，也就是交叉编译器，这里设置为我们自己所使用的交  叉编译器即可。 buildroot 其实是可以自动下载交叉编译器的，但是都是从国外服务器下载的，鉴于国内的网络环境，强烈推荐大家设置成自己所使用的交叉编译器。需要配置的项目和其对应的内容如下。主要编路径与平常使用环境变量不同要填包含bin文件的绝对路径。
+此配置项用于配置交叉编译工具链，设置为自己所使用的交叉编译器即可。不设置可以在执行构建时自动下载交叉编译器，但都是从国外服务器下载，鉴于国内的网络环境，强烈推荐设置成自己所使用的交叉编译器，也可以配置buildroot国内镜像源加速下载。需要配置的项目和其对应的内容如下，与平常使用环境变量不同要填包含bin文件夹的绝对路径。
 例如编译可执行文件路径为以下
 /home/super/mp157/gcc-arm-9.2-2019.12-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-gcc
 该路径应该为/home/super/mp157/gcc-arm-9.2-2019.12-x86_64-arm-none-linux-gnueabihf，与下图相同
 ![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/linux_driver/03/driver_03_05.png)
 
 3、 配置 System configuration  
-此选项用于设置一些系统配置，比如系统主机名字、欢迎语、用户名、密码等。需要配置的 项目和其对应的内容如下：
+此选项用于设置一些系统配置，比如系统主机名字、欢迎语、用户名、密码等。需要配置的项目和其对应的内容如下：
 
 ![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/linux_driver/03/driver_03_06.png)
 
 4、配置 Filesystem images
-根文件系统格式选择ext4
+根文件系统格式选择ext4，大小可以配置小一点，启动板卡进入根文件系统后可以在用户空间再重置
 
 ![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/linux_driver/03/driver_03_07.png)
 
@@ -79,6 +79,6 @@ ftp
 sudo make FORCE_UNSAFE_CONFIGURE=1
 ```
 
-在以下路径有编译好的根文件系统，ext4格式的和tar压缩包，rootfs.ext4可以直接使用烧录工具烧录，rootfs.tar可以直接解压用nfs挂载测试
+在以下路径有编译好的根文件系统，ext4格式的和tar压缩包，rootfs.ext4可以直接使用厂商烧录工具烧录，rootfs.tar可以直接解压挂载nfs文件系统测试
 
 ![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/linux_driver/03/driver_03_11.png)
