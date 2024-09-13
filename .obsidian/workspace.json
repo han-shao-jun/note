@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c语言提高/01_预处理和宏.md",
+                "file": "cmake/10_库进阶用法.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 264.5
   },
   "right": {
     "id": "8b41991008760fb7",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c语言提高/01_预处理和宏.md",
+                "file": "cmake/10_库进阶用法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c语言提高/01_预处理和宏.md",
+                "file": "cmake/10_库进阶用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c语言提高/01_预处理和宏.md"
+                "file": "cmake/10_库进阶用法.md"
               }
             }
           }
@@ -160,13 +160,22 @@
   },
   "active": "d058ad61b07825b8",
   "lastOpenFiles": [
+    "cmake/08_自定义目标与命令.md",
+    "cmake/07_交叉编译.md",
+    "cmake/06_创建静态库和动态库及其使用.md",
+    "cmake/05_添加编译参数.md",
+    "cmake/04_宏与函数.md",
+    "cmake/03_条件分支_循环.md",
+    "cmake/02_变量.md",
+    "cmake/01_cmake命令行使用.md",
+    "cmake/00_创建基本工程.md",
+    "linux系统使用/05_磁盘.md",
+    "c语言提高/01_预处理和宏.md",
     "c语言提高/02_可变参数.md",
     "c语言提高/03_printf实现.md",
-    "c语言提高/01_预处理和宏.md",
     "单片机/01_clion环境搭建.md",
     "杂谈/01_嵌入式linux专业术语介绍.md",
     "linux嵌入式/01_构建Debian根文件系统.md",
-    "linux系统使用/05_磁盘.md",
     "qt/03_Quazip库使用.md",
     "qt/02_编译静态库.md",
     "qt/01_环境搭建.md",
@@ -177,15 +186,6 @@
     "linux系统使用/杂七杂八/shell_bat小知识.md",
     "存储器/00_存储器分类.md",
     "linux内核/00_initcal机制.md",
-    "linux内核/01_系统调用.md",
-    "linux系统编程/07_多进程通信.md",
-    "linux系统编程/06_多进程.md",
-    "linux嵌入式/00_系统启动基本流程.md",
-    "u-boot/00_编译分析.md",
-    "u-boot/01_快速使用.md",
-    "gcc编译器/00_源代码编译流程与编译器基本使用.md",
-    "gcc编译器/06_Binutils的使用.md",
-    "gcc编译器/05_链接器.md",
     "linux内核",
     "Pasted image 20240704224208.png",
     "Pasted image 20240702220033.png",
