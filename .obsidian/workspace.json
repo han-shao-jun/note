@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cmake/10_库进阶用法.md",
+                "file": "u-boot/00_编译分析.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux系统使用/05_磁盘.md",
+                "file": "u-boot/15_常用api.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cmake/10_库进阶用法.md",
+                "file": "u-boot/15_常用api.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cmake/10_库进阶用法.md",
+                "file": "u-boot/15_常用api.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cmake/10_库进阶用法.md"
+                "file": "u-boot/15_常用api.md"
               }
             }
           }
@@ -158,8 +159,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d058ad61b07825b8",
+  "active": "a644a57f9ade2fbb",
   "lastOpenFiles": [
+    "调试/00_GDB调试命令.md",
+    "u-boot/15_常用api.md",
+    "调试/01_ARM调试技术.md",
+    "c语言提高/01_预处理和宏.md",
+    "c语言提高/03_printf实现.md",
+    "c语言提高/02_可变参数.md",
+    "单片机/01_clion环境搭建.md",
+    "linux系统使用/05_磁盘.md",
+    "调试",
+    "u-boot/00_编译分析.md",
+    "u-boot/01_快速使用.md",
+    "cmake/10_库进阶用法.md",
     "cmake/08_自定义目标与命令.md",
     "cmake/07_交叉编译.md",
     "cmake/06_创建静态库和动态库及其使用.md",
@@ -169,23 +182,12 @@
     "cmake/02_变量.md",
     "cmake/01_cmake命令行使用.md",
     "cmake/00_创建基本工程.md",
-    "linux系统使用/05_磁盘.md",
-    "c语言提高/01_预处理和宏.md",
-    "c语言提高/02_可变参数.md",
-    "c语言提高/03_printf实现.md",
-    "单片机/01_clion环境搭建.md",
     "杂谈/01_嵌入式linux专业术语介绍.md",
     "linux嵌入式/01_构建Debian根文件系统.md",
     "qt/03_Quazip库使用.md",
     "qt/02_编译静态库.md",
     "qt/01_环境搭建.md",
     "linux系统使用/04_demsg.md",
-    "linux系统使用/03_文件结构.md",
-    "linux系统使用/02_重定向，管道.md",
-    "linux系统使用/01_环境准备.md",
-    "linux系统使用/杂七杂八/shell_bat小知识.md",
-    "存储器/00_存储器分类.md",
-    "linux内核/00_initcal机制.md",
     "linux内核",
     "Pasted image 20240704224208.png",
     "Pasted image 20240702220033.png",
@@ -197,7 +199,6 @@
     "linux系统使用/杂七杂八",
     "计算机网络",
     "c语言提高",
-    "乱七八糟",
-    "gcc编译器"
+    "乱七八糟"
   ]
 }

@@ -1,0 +1,65 @@
+## 远程调试与加载
+
+- target remote localhost:2331，连接远程GDB服务器，地址为本地回环地址，端口为2331
+- file u-boot.elf，读取调试符号文件C:/temp/Blinky.elf，初始化调试环境，设置可执行文件，允许设置断点、查看源代码等
+- load，将使用file命令加载的程序（elf格式）下载/上传到目标设备，
+- monitor loadbin u-boot.bin 0x08000000，向地址0x08000000加载u-boot.bin（bin格式）程序文件
+- symbol-file u-boot.elf，添加调试符号文件C:/temp/Blinky.elf，用于调试正在运行的程序，不破坏运行现场
+- add-symbol-file u-boot.elf 0x08000000，在地址0x08000000处添加调试符号，程序有重定向时可用此命令
+- 在远程调试中，执行gdb服务器命令时，需要加上**monitor**，例如复位 ：**monitor reset**
+- directory(dir) /new/source/path，添加源码搜索路径为/new/source/path
+- set substitute-path /old/source/path /new/source/path，替换旧源码搜索路径/old/source/path为新路径/new/source/path
+
+## 控制代码执行流程
+
+- **`step/s`**：步入，执行当前行代码，并在下一个源行停下。若当前行包含函数调用，会进入该函数。
+- **`next/n`**：步过，执行当前行代码，但如果当前行包含函数调用，则直接跳过该函数，继续到下一行。
+- **`finish/fin`**：步出，在当前函数执行完毕后返回，并停在调用该函数的下一行。
+- **`continue/c`**：全速运行，继续执行程序直到下一个断点或程序结束。
+- **`interrupt/Ctrl + C组合键`**：停止运行
+
+## 添加断点
+
+添加断点主要使用**break/b**命令，能添加多种形式的断点。
+
+1. **按行号设置断点**：
+```bash
+语法，可以连续多个断点
+break filename:line_number
+
+例如：在main.c10行添加断点
+break main.c:10
+```
+
+2. **按函数名设置断点**：
+```bash
+语法
+break function_name
+
+例如：在main添加断点
+break main
+```
+
+3. **条件断点**： 只有在满足特定条件时，程序才会在断点处停下
+```bash
+语法
+break filename:line_number if condition
+
+例如：当x>5时(x为全局变量)在源文件main.c10行添加断点
+break main.c:10 if x > 5
+```
+
+4. **临时断点**： 设置临时断点，程序在此处停下后会自动删除该断点：
+```bash
+语法
+tbreak filename:line_number
+
+例如：在main.c10行添加临时断点
+tbreak main.c:10
+```
+
+## 打印信息
+
+- info registers，打印内核寄存器
+- info breakpoints，打印所有断点信息
+- print/p，打印变量
