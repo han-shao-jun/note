@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "u-boot/15_常用api.md",
+                "file": "调试/00_GDB调试命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "u-boot/15_常用api.md",
+                "file": "调试/00_GDB调试命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "u-boot/15_常用api.md",
+                "file": "调试/00_GDB调试命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "u-boot/15_常用api.md"
+                "file": "调试/00_GDB调试命令.md"
               }
             }
           }
@@ -161,33 +161,33 @@
   },
   "active": "a644a57f9ade2fbb",
   "lastOpenFiles": [
-    "调试/00_GDB调试命令.md",
+    "u-boot/16_i2c命令使用.md",
+    "u-boot/15_设备树添加i2c设备及其原理.md",
+    "u-boot/14_驱动常用api.md",
+    "u-boot/13_udevice解析.md",
+    "u-boot/12_udriver解析.md",
+    "u-boot/11_uclass解析.md",
+    "u-boot/10_驱动模型相关的链接脚本.md",
+    "u-boot/09_启动流程_设备树扫描.md",
+    "u-boot/08_启动流程_board_r.md",
+    "u-boot/07_启动流程_重定向.md",
+    "u-boot/06_串口初始化.md",
+    "u-boot/05_启动流程_board_f.md",
+    "u-boot/04_启动准备.md",
     "u-boot/15_常用api.md",
-    "调试/01_ARM调试技术.md",
-    "c语言提高/01_预处理和宏.md",
-    "c语言提高/03_printf实现.md",
-    "c语言提高/02_可变参数.md",
-    "单片机/01_clion环境搭建.md",
-    "linux系统使用/05_磁盘.md",
+    "u-boot/15_驱动常用api.md",
+    "u-boot/03_menuconfig配置项.md",
+    "u-boot/08_启动流程_设备树扫描.md",
+    "u-boot/07_启动流程_board_r.md",
+    "u-boot/06_启动流程_重定向.md",
+    "u-boot/05_串口初始化.md",
+    "u-boot/04_启动流程_board_f.md",
+    "u-boot/03_启动准备.md",
+    "u-boot/02_从零添加单板.md",
+    "u-boot/03_从零添加单板.md",
+    "u-boot/07_启动流程_设备树扫描.md",
+    "u-boot/06_启动流程_board_r.md",
     "调试",
-    "u-boot/00_编译分析.md",
-    "u-boot/01_快速使用.md",
-    "cmake/10_库进阶用法.md",
-    "cmake/08_自定义目标与命令.md",
-    "cmake/07_交叉编译.md",
-    "cmake/06_创建静态库和动态库及其使用.md",
-    "cmake/05_添加编译参数.md",
-    "cmake/04_宏与函数.md",
-    "cmake/03_条件分支_循环.md",
-    "cmake/02_变量.md",
-    "cmake/01_cmake命令行使用.md",
-    "cmake/00_创建基本工程.md",
-    "杂谈/01_嵌入式linux专业术语介绍.md",
-    "linux嵌入式/01_构建Debian根文件系统.md",
-    "qt/03_Quazip库使用.md",
-    "qt/02_编译静态库.md",
-    "qt/01_环境搭建.md",
-    "linux系统使用/04_demsg.md",
     "linux内核",
     "Pasted image 20240704224208.png",
     "Pasted image 20240702220033.png",
