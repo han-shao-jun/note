@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "调试/00_GDB调试命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a644a57f9ade2fbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux系统使用/01_环境准备.md",
+                "file": "调试/gdb调试/00_启动调试.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 323.49999618530273
   },
   "right": {
     "id": "8b41991008760fb7",
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "调试/00_GDB调试命令.md",
+                "file": "调试/gdb调试/00_启动调试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "调试/00_GDB调试命令.md",
+                "file": "调试/gdb调试/00_启动调试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "调试/00_GDB调试命令.md"
+                "file": "调试/gdb调试/00_启动调试.md"
               }
             }
           }
@@ -146,47 +134,48 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5,
-    "collapsed": true
+    "width": 263.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "d058ad61b07825b8",
+  "active": "274d58502b986a21",
   "lastOpenFiles": [
+    "调试/gdb调试/05_命令速查.md",
+    "调试/gdb调试/00_启动调试.md",
+    "调试/gdb调试/01_设置断点.md",
+    "qt/03_Quazip库使用.md",
+    "qt/02_编译静态库.md",
+    "qt/01_环境搭建.md",
+    "linux嵌入式/01_构建Debian根文件系统.md",
+    "linux嵌入式/00_系统启动基本流程.md",
+    "调试/JTAG调试/01_ARM调试技术.md",
+    "调试/gdb调试/04_源码查看.md",
+    "调试/gdb调试/03_单步调试.md",
+    "调试/gdb调试/02_查看变量.md",
+    "调试/JTAG调试",
+    "调试/01_.md",
+    "调试/gdb调试/01_.md",
+    "调试/00_启动GDB调试.md",
+    "调试/gdb调试/00_启动GDB调试.md",
+    "调试/gdb调试",
     "调试/01_ARM调试技术.md",
-    "调试/00_GDB调试命令.md",
+    "linux系统使用/01_环境准备.md",
     "u-boot/01_快速使用.md",
     "linux内核/00_initcal机制.md",
     "u-boot/00_编译分析.md",
-    "linux系统使用/01_环境准备.md",
     "linux嵌入式/07_阻塞和非阻塞 IO.md",
     "linux嵌入式/06_动态内存分配.md",
     "linux嵌入式/05_字符设备驱动.md",
     "linux嵌入式/11_设备树.md",
     "linux嵌入式/11_平台设备和平台驱动匹配流程.md",
-    "linux嵌入式/08_异步IO与同步IO.md",
-    "linux嵌入式/09_并发与共享资源保护.md",
-    "linux嵌入式/10_platform 设备驱动.md",
-    "linux嵌入式/27_dma.md",
-    "linux嵌入式/26_pcie驱动.md",
-    "linux嵌入式/25_usb驱动.md",
-    "linux嵌入式/24_音频驱动.md",
-    "linux嵌入式/23_屏幕驱动.md",
-    "linux嵌入式/22_块设备驱动.md",
-    "linux嵌入式/21_网络设备驱动.md",
-    "linux嵌入式/20_PWM驱动.md",
-    "linux嵌入式/18_tty(串口)驱动.md",
-    "linux嵌入式/19_硬件定时器.md",
-    "linux嵌入式/17_spi设备驱动.md",
-    "linux嵌入式/16_I2C 设备驱动.md",
     "调试",
     "linux内核",
     "Pasted image 20240704224208.png",
@@ -197,8 +186,6 @@
     "ARM架构",
     "杂谈",
     "linux系统使用/杂七杂八",
-    "计算机网络",
-    "c语言提高",
-    "乱七八糟"
+    "计算机网络"
   ]
 }
