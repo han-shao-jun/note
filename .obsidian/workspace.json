@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "u-boot/00_编译分析.md",
+                "file": "调试/00_GDB调试命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "调试/00_GDB调试命令.md",
+                "file": "linux系统使用/01_环境准备.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 200
   },
   "right": {
     "id": "8b41991008760fb7",
@@ -147,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 219.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,34 +159,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a644a57f9ade2fbb",
+  "active": "d058ad61b07825b8",
   "lastOpenFiles": [
-    "u-boot/16_i2c命令使用.md",
-    "u-boot/15_设备树添加i2c设备及其原理.md",
-    "u-boot/14_驱动常用api.md",
-    "u-boot/13_udevice解析.md",
-    "u-boot/12_udriver解析.md",
-    "u-boot/11_uclass解析.md",
-    "u-boot/10_驱动模型相关的链接脚本.md",
-    "u-boot/09_启动流程_设备树扫描.md",
-    "u-boot/08_启动流程_board_r.md",
-    "u-boot/07_启动流程_重定向.md",
-    "u-boot/06_串口初始化.md",
-    "u-boot/05_启动流程_board_f.md",
-    "u-boot/04_启动准备.md",
-    "u-boot/15_常用api.md",
-    "u-boot/15_驱动常用api.md",
-    "u-boot/03_menuconfig配置项.md",
-    "u-boot/08_启动流程_设备树扫描.md",
-    "u-boot/07_启动流程_board_r.md",
-    "u-boot/06_启动流程_重定向.md",
-    "u-boot/05_串口初始化.md",
-    "u-boot/04_启动流程_board_f.md",
-    "u-boot/03_启动准备.md",
-    "u-boot/02_从零添加单板.md",
-    "u-boot/03_从零添加单板.md",
-    "u-boot/07_启动流程_设备树扫描.md",
-    "u-boot/06_启动流程_board_r.md",
+    "调试/01_ARM调试技术.md",
+    "调试/00_GDB调试命令.md",
+    "u-boot/01_快速使用.md",
+    "linux内核/00_initcal机制.md",
+    "u-boot/00_编译分析.md",
+    "linux系统使用/01_环境准备.md",
+    "linux嵌入式/07_阻塞和非阻塞 IO.md",
+    "linux嵌入式/06_动态内存分配.md",
+    "linux嵌入式/05_字符设备驱动.md",
+    "linux嵌入式/11_设备树.md",
+    "linux嵌入式/11_平台设备和平台驱动匹配流程.md",
+    "linux嵌入式/08_异步IO与同步IO.md",
+    "linux嵌入式/09_并发与共享资源保护.md",
+    "linux嵌入式/10_platform 设备驱动.md",
+    "linux嵌入式/27_dma.md",
+    "linux嵌入式/26_pcie驱动.md",
+    "linux嵌入式/25_usb驱动.md",
+    "linux嵌入式/24_音频驱动.md",
+    "linux嵌入式/23_屏幕驱动.md",
+    "linux嵌入式/22_块设备驱动.md",
+    "linux嵌入式/21_网络设备驱动.md",
+    "linux嵌入式/20_PWM驱动.md",
+    "linux嵌入式/18_tty(串口)驱动.md",
+    "linux嵌入式/19_硬件定时器.md",
+    "linux嵌入式/17_spi设备驱动.md",
+    "linux嵌入式/16_I2C 设备驱动.md",
     "调试",
     "linux内核",
     "Pasted image 20240704224208.png",

@@ -5,3 +5,7 @@ api全部是以dev_开始
 - dev_read_addr，获取设备树reg属性值
 
 ## uclass
+
+
+## u_driver驱动flasg
+- DM_FLAG_PRE_RELOC，在重定向之前也要加载驱动
