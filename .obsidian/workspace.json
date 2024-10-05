@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "调试/gdb调试/00_启动调试.md",
+                "file": "开发工具/vscode/00_gdb调试.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.49999618530273
+    "width": 258.49999618530273
   },
   "right": {
     "id": "8b41991008760fb7",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "调试/gdb调试/00_启动调试.md",
+                "file": "开发工具/vscode/00_gdb调试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "调试/gdb调试/00_启动调试.md",
+                "file": "开发工具/vscode/00_gdb调试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "调试/gdb调试/00_启动调试.md"
+                "file": "开发工具/vscode/00_gdb调试.md"
               }
             }
           }
@@ -146,17 +146,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "274d58502b986a21",
+  "active": "d058ad61b07825b8",
   "lastOpenFiles": [
-    "调试/gdb调试/05_命令速查.md",
+    "调试/JTAG调试/01_ARM调试技术.md",
+    "开发工具/vscode/00_gdb调试.md",
     "调试/gdb调试/00_启动调试.md",
+    "调试/gdb调试/05_命令速查.md",
     "调试/gdb调试/01_设置断点.md",
     "qt/03_Quazip库使用.md",
     "qt/02_编译静态库.md",
     "qt/01_环境搭建.md",
     "linux嵌入式/01_构建Debian根文件系统.md",
     "linux嵌入式/00_系统启动基本流程.md",
-    "调试/JTAG调试/01_ARM调试技术.md",
     "调试/gdb调试/04_源码查看.md",
     "调试/gdb调试/03_单步调试.md",
     "调试/gdb调试/02_查看变量.md",
@@ -175,7 +176,6 @@
     "linux嵌入式/06_动态内存分配.md",
     "linux嵌入式/05_字符设备驱动.md",
     "linux嵌入式/11_设备树.md",
-    "linux嵌入式/11_平台设备和平台驱动匹配流程.md",
     "调试",
     "linux内核",
     "Pasted image 20240704224208.png",
