@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "调试/gdb调试/05_命令速查.md",
+                "file": "u-boot/01_快速使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.49999618530273
+    "width": 281.49999618530273
   },
   "right": {
     "id": "8b41991008760fb7",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "调试/gdb调试/05_命令速查.md",
+                "file": "u-boot/01_快速使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "调试/gdb调试/05_命令速查.md",
+                "file": "u-boot/01_快速使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "调试/gdb调试/05_命令速查.md"
+                "file": "u-boot/01_快速使用.md"
               }
             }
           }
@@ -146,36 +146,36 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d058ad61b07825b8",
+  "active": "274d58502b986a21",
   "lastOpenFiles": [
-    "调试/gdb调试/01_设置断点.md",
-    "调试/gdb调试/00_启动调试.md",
-    "调试/gdb调试/02_查看变量.md",
-    "调试/gdb调试/05_命令速查.md",
-    "调试/gdb调试/03_单步调试.md",
-    "调试/gdb调试/04_源码查看.md",
-    "调试/JTAG调试/01_ARM调试技术.md",
-    "开发工具/vscode/00_gdb调试.md",
-    "qt/03_Quazip库使用.md",
-    "qt/02_编译静态库.md",
-    "qt/01_环境搭建.md",
-    "linux嵌入式/01_构建Debian根文件系统.md",
-    "linux嵌入式/00_系统启动基本流程.md",
-    "调试/JTAG调试",
-    "调试/01_.md",
-    "调试/gdb调试/01_.md",
-    "调试/00_启动GDB调试.md",
-    "调试/gdb调试/00_启动GDB调试.md",
-    "调试/gdb调试",
-    "调试/01_ARM调试技术.md",
-    "linux系统使用/01_环境准备.md",
+    "总线接口/07_MII_RMII_GMII_RGMII_SGMII.md",
+    "总线接口/06_MDIO栈管理.md",
+    "总线接口/05_CAN_CANFD.md",
+    "总线接口/04_RS232_RS485_TTL.md",
+    "总线接口/03_高速串行总线(spi).md",
+    "总线接口/02_I2C.md",
+    "总线接口/01_串口(通用异步收发器_UART).md",
+    "存储器/10_nvme固态硬盘.md",
+    "存储器/09_ufs闪存.md",
+    "存储器/07_emmc.md",
+    "存储器/06_sd卡.md",
+    "存储器/05_sdram.md",
     "u-boot/01_快速使用.md",
-    "linux内核/00_initcal机制.md",
+    "c语言提高/01_预处理和宏.md",
+    "c语言提高/02_可变参数.md",
+    "c语言提高/03_printf实现.md",
     "u-boot/00_编译分析.md",
-    "linux嵌入式/07_阻塞和非阻塞 IO.md",
-    "linux嵌入式/06_动态内存分配.md",
-    "linux嵌入式/05_字符设备驱动.md",
-    "linux嵌入式/11_设备树.md",
+    "调试/gdb调试/00_启动调试.md",
+    "调试/gdb调试/05_命令速查.md",
+    "linux系统使用/杂七杂八/shell_bat小知识.md",
+    "linux系统使用/02_重定向，管道.md",
+    "linux系统使用/01_环境准备.md",
+    "linux嵌入式/02_构建BusyBox根文件系统.md",
+    "linux嵌入式/03_构建BuildRoot根文件系统.md",
+    "linux嵌入式/01_构建Debian根文件系统.md",
+    "linux系统使用/03_文件结构.md",
+    "调试/JTAG调试",
+    "调试/gdb调试",
     "调试",
     "linux内核",
     "Pasted image 20240704224208.png",
