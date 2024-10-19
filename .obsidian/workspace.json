@@ -16,7 +16,9 @@
                 "file": "u-boot/01_快速使用.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "01_快速使用"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -62,14 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 251.49999618530273
+    "width": 299.49999618530273
   },
   "right": {
     "id": "8b41991008760fb7",
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "u-boot/01_快速使用.md",
+                "file": "linux系统使用/01_环境准备.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "01_环境准备 的反向链接列表"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "u-boot/01_快速使用.md",
+                "file": "linux系统使用/01_环境准备.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "01_环境准备 的出链列表"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -126,7 +140,9 @@
               "type": "outline",
               "state": {
                 "file": "u-boot/01_快速使用.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "01_快速使用 的大纲"
             }
           }
         ],
@@ -134,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 294.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,32 +164,32 @@
   },
   "active": "8d282a1fbcd070bd",
   "lastOpenFiles": [
-    "调试/gdb调试/00_启动调试.md",
-    "u-boot/01_快速使用.md",
-    "总线接口/07_MII_RMII_GMII_RGMII_SGMII.md",
-    "总线接口/06_MDIO栈管理.md",
-    "总线接口/05_CAN_CANFD.md",
-    "总线接口/04_RS232_RS485_TTL.md",
-    "总线接口/03_高速串行总线(spi).md",
-    "总线接口/02_I2C.md",
-    "总线接口/01_串口(通用异步收发器_UART).md",
-    "存储器/10_nvme固态硬盘.md",
-    "存储器/09_ufs闪存.md",
-    "存储器/07_emmc.md",
-    "存储器/06_sd卡.md",
-    "存储器/05_sdram.md",
-    "c语言提高/01_预处理和宏.md",
-    "c语言提高/02_可变参数.md",
-    "c语言提高/03_printf实现.md",
     "u-boot/00_编译分析.md",
-    "调试/gdb调试/05_命令速查.md",
-    "linux系统使用/杂七杂八/shell_bat小知识.md",
+    "u-boot/01_快速使用.md",
     "linux系统使用/02_重定向，管道.md",
     "linux系统使用/01_环境准备.md",
-    "linux嵌入式/02_构建BusyBox根文件系统.md",
-    "linux嵌入式/03_构建BuildRoot根文件系统.md",
-    "linux嵌入式/01_构建Debian根文件系统.md",
-    "linux系统使用/03_文件结构.md",
+    "linux系统使用/杂七杂八/shell_bat小知识.md",
+    "调试/JTAG调试/01_ARM调试技术.md",
+    "调试/gdb调试/00_启动调试.md",
+    "调试/gdb调试/05_命令速查.md",
+    "调试/gdb调试/04_源码查看.md",
+    "调试/gdb调试/03_单步调试.md",
+    "调试/gdb调试/02_查看变量.md",
+    "调试/gdb调试/01_设置断点.md",
+    "qt/01_环境搭建.md",
+    "qt/03_Quazip库使用.md",
+    "qt/02_编译静态库.md",
+    "u-boot/14_驱动常用api.md",
+    "u-boot/13_udevice解析.md",
+    "u-boot/12_udriver解析.md",
+    "u-boot/11_uclass解析.md",
+    "u-boot/10_驱动模型相关的链接脚本.md",
+    "u-boot/09_启动流程_设备树扫描.md",
+    "u-boot/08_启动流程_board_r.md",
+    "u-boot/16_i2c命令使用.md",
+    "u-boot/15_设备树添加i2c设备及其原理.md",
+    "u-boot/02_从零添加单板.md",
+    "总线接口/07_MII_RMII_GMII_RGMII_SGMII.md",
     "调试/JTAG调试",
     "调试/gdb调试",
     "调试",
