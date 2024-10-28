@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux系统使用/01_环境准备.md",
+                "file": "linux嵌入式/03_构建BuildRoot根文件系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_环境准备"
+              "title": "03_构建BuildRoot根文件系统"
             }
           }
         ]
@@ -60,7 +60,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -70,14 +70,14 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 251.49999618530273
+    "width": 246.49999618530273
   },
   "right": {
     "id": "8b41991008760fb7",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "调试/gdb调试/05_命令速查.md",
+                "file": "linux系统使用/01_环境准备.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 05_命令速查"
+              "title": "01_环境准备 的反向链接列表"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "调试/gdb调试/05_命令速查.md",
+                "file": "linux系统使用/01_环境准备.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 05_命令速查"
+              "title": "01_环境准备 的出链列表"
             }
           },
           {
@@ -130,7 +130,7 @@
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux系统使用/01_环境准备.md"
+                "file": "linux嵌入式/03_构建BuildRoot根文件系统.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 01_环境准备"
+              "title": "Outline of 03_构建BuildRoot根文件系统"
             }
           }
         ],
@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 294.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,32 +164,32 @@
   },
   "active": "8d282a1fbcd070bd",
   "lastOpenFiles": [
-    "u-boot/01_快速使用.md",
-    "u-boot/02_从零添加单板.md",
     "linux系统使用/01_环境准备.md",
-    "调试/gdb调试/05_命令速查.md",
-    "调试/gdb调试/00_启动调试.md",
-    "u-boot/00_编译分析.md",
+    "().md",
+    "[interfaces(5).md",
+    "u-boot/01_快速使用.md",
     "linux嵌入式/01_构建Debian根文件系统.md",
-    "linux嵌入式/00_系统启动基本流程.md",
-    "总线接口/07_MII_RMII_GMII_RGMII_SGMII.md",
-    "总线接口/06_MDIO栈管理.md",
-    "总线接口/05_CAN_CANFD.md",
-    "总线接口/04_RS232_RS485_TTL.md",
-    "总线接口/03_高速串行总线(spi).md",
-    "总线接口/02_I2C.md",
-    "总线接口/01_串口(通用异步收发器_UART).md",
-    "存储器/10_nvme固态硬盘.md",
-    "存储器/09_ufs闪存.md",
-    "存储器/07_emmc.md",
-    "存储器/06_sd卡.md",
-    "存储器/05_sdram.md",
-    "c语言提高/01_预处理和宏.md",
-    "c语言提高/02_可变参数.md",
-    "c语言提高/03_printf实现.md",
     "linux系统使用/杂七杂八/shell_bat小知识.md",
     "linux系统使用/02_重定向，管道.md",
-    "linux嵌入式/02_构建BusyBox根文件系统.md",
+    "linux系统使用/03_文件结构.md",
+    "linux系统使用/04_demsg.md",
+    "linux系统使用/05_磁盘.md",
+    "u-boot/02_从零添加单板.md",
+    "u-boot/00_编译分析.md",
+    "单片机/01_clion环境搭建.md",
+    "linux嵌入式/04_驱动入门知识.md",
+    "linux嵌入式/05_字符设备驱动.md",
+    "linux嵌入式/06_动态内存分配.md",
+    "linux嵌入式/09_并发与共享资源保护.md",
+    "linux嵌入式/08_异步IO与同步IO.md",
+    "linux嵌入式/07_阻塞和非阻塞 IO.md",
+    "调试/JTAG调试/01_ARM调试技术.md",
+    "调试/gdb调试/00_启动调试.md",
+    "调试/gdb调试/05_命令速查.md",
+    "调试/gdb调试/04_源码查看.md",
+    "调试/gdb调试/03_单步调试.md",
+    "调试/gdb调试/02_查看变量.md",
+    "调试/gdb调试/01_设置断点.md",
     "调试/JTAG调试",
     "调试/gdb调试",
     "调试",
