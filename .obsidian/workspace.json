@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "u-boot/00_编译分析.md",
+                "file": "杂谈/00_嵌入式linux专业术语.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_编译分析"
+              "title": "00_嵌入式linux专业术语"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "u-boot/00_编译分析.md"
+                "file": "杂谈/00_嵌入式linux专业术语.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 00_编译分析"
+              "title": "Outline of 00_嵌入式linux专业术语"
             }
           }
         ],
@@ -150,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5,
-    "collapsed": true
+    "width": 293.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,8 +164,16 @@
   },
   "active": "8d282a1fbcd070bd",
   "lastOpenFiles": [
-    "杂谈/01_linux内核各种config.md",
+    "linux系统使用/05_磁盘.md",
     "杂谈/00_嵌入式linux专业术语.md",
+    "u-boot/00_编译分析.md",
+    "杂谈/01_linux内核各种config.md",
+    "cmake/00_创建基本工程.md",
+    "cmake/06_创建静态库和动态库及其使用.md",
+    "cmake/01_cmake命令行使用.md",
+    "cmake/02_变量.md",
+    "cmake/04_宏与函数.md",
+    "cmake/03_条件分支_循环.md",
     "总线接口/09_USB.md",
     "总线接口/08_PCIE.md",
     "总线接口/07_MII_RMII_GMII_RGMII_SGMII.md",
@@ -183,14 +190,6 @@
     "gcc编译器/01_常用编译参数.md",
     "gcc编译器/06_Binutils的使用.md",
     "gcc编译器/05_链接器.md",
-    "gcc编译器/04_elf格式程序与程序的装载.md",
-    "gcc编译器/03_gnu__attribute__机制.md",
-    "linux系统使用/01_环境准备.md",
-    "lwip/01_移植(NO_SYS).md",
-    "lwip/02_移植(FreeRTOS).md",
-    "qt/03_Quazip库使用.md",
-    "qt/02_编译静态库.md",
-    "qt/01_环境搭建.md",
     "调试/JTAG调试",
     "调试/gdb调试",
     "调试",
