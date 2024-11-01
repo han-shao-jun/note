@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "u-boot/03_menuconfig配置项.md",
+                "file": "u-boot/00_编译分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03_menuconfig配置项"
+              "title": "00_编译分析"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "u-boot/03_menuconfig配置项.md"
+                "file": "u-boot/00_编译分析.md"
               },
               "icon": "lucide-list",
-              "title": "03_menuconfig配置项 的大纲"
+              "title": "00_编译分析 的大纲"
             }
           }
         ],
@@ -163,12 +163,11 @@
     }
   },
   "active": "8d282a1fbcd070bd",
-  "active": "8d282a1fbcd070bd",
   "lastOpenFiles": [
+    "u-boot/03_menuconfig配置项.md",
     "调试/gdb调试/05_命令速查.md",
     "调试/gdb调试/03_单步调试.md",
     "调试/gdb调试/00_启动调试.md",
-    "u-boot/03_menuconfig配置项.md",
     "开发工具/vscode/00_gdb调试.md",
     "linux嵌入式/03_构建BuildRoot根文件系统.md",
     "linux嵌入式/02_构建BusyBox根文件系统.md",
