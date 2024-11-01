@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "u-boot/03_menuconfig配置项.md",
+                "file": "u-boot/00_编译分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03_menuconfig配置项"
+              "title": "00_编译分析"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "u-boot/03_menuconfig配置项.md"
+                "file": "u-boot/00_编译分析.md"
               },
               "icon": "lucide-list",
-              "title": "03_menuconfig配置项 的大纲"
+              "title": "Outline of 00_编译分析"
             }
           }
         ],
@@ -154,43 +154,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "8d282a1fbcd070bd",
-  "active": "8d282a1fbcd070bd",
   "lastOpenFiles": [
+    "杂谈/00_嵌入式linux专业术语.md",
+    "u-boot/00_编译分析.md",
+    "cmake/00_创建基本工程.md",
+    "cmake/01_cmake命令行使用.md",
+    "cmake/02_变量.md",
+    "cmake/10_库进阶用法.md",
+    "cmake/07_交叉编译.md",
+    "cmake/06_创建静态库和动态库及其使用.md",
+    "cmake/05_添加编译参数.md",
+    "cmake/04_宏与函数.md",
+    "cmake/03_条件分支_循环.md",
+    "c语言提高/02_可变参数.md",
+    "c语言提高/03_printf实现.md",
+    "c语言提高/01_预处理和宏.md",
+    "总线接口/01_串口(通用异步收发器_UART).md",
+    "杂谈/01_linux内核各种config.md",
+    "u-boot/03_menuconfig配置项.md",
     "调试/gdb调试/05_命令速查.md",
     "调试/gdb调试/03_单步调试.md",
     "调试/gdb调试/00_启动调试.md",
-    "u-boot/03_menuconfig配置项.md",
     "开发工具/vscode/00_gdb调试.md",
     "linux嵌入式/03_构建BuildRoot根文件系统.md",
     "linux嵌入式/02_构建BusyBox根文件系统.md",
     "linux系统编程/07_多进程通信.md",
     "linux系统编程/06_多进程.md",
     "linux系统编程/05_io多路复用.md",
-    "linux系统编程/04_udp网络编程.md",
-    "linux系统编程/03_tcp网络编程.md",
-    "linux系统编程/02_线程同步.md",
-    "linux系统编程/01_多线程入门.md",
-    "linux系统编程/00_文件IO.md",
-    "linux内核/00_initcal机制.md",
-    "linux内核/01_系统调用.md",
-    "linux嵌入式/01_构建Debian根文件系统.md",
-    "调试/gdb调试/01_设置断点.md",
-    "调试/gdb调试/04_源码查看.md",
-    "调试/gdb调试/02_查看变量.md",
-    "杂谈/01_linux内核各种config.md",
-    "杂谈/00_嵌入式linux专业术语.md",
-    "未命名.md",
-    "linux系统使用/杂七杂八/shell_bat小知识.md",
-    "u-boot/01_快速使用.md",
     "调试/JTAG调试",
     "调试/gdb调试",
     "调试",
