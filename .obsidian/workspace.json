@@ -61,6 +61,7 @@
               },
               "icon": "lucide-search",
               "title": "Search"
+              "title": "Search"
             }
           },
           {
@@ -70,6 +71,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
+              "title": "Bookmarks"
               "title": "Bookmarks"
             }
           }
@@ -131,6 +133,7 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+              "title": "Tags"
             }
           },
           {
@@ -142,7 +145,7 @@
                 "file": "u-boot/00_编译分析.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 00_编译分析"
+              "title": "01_menuconfig配置项 的大纲"
             }
           }
         ],
