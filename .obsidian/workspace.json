@@ -1,6 +1,6 @@
 {
   "main": {
-    "id": "d744325e70d46696",
+    "id": "e8fe5e528c1e67fe",
     "type": "split",
     "children": [
       {
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5a5fcabc3fded556",
+    "id": "dcdb51367fe8ba3d",
     "type": "split",
     "children": [
       {
-        "id": "20bed99bf28fceef",
+        "id": "767b50bdebb6c836",
         "type": "tabs",
         "children": [
           {
-            "id": "274d58502b986a21",
+            "id": "22d478a3266f3db9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +47,7 @@
             }
           },
           {
-            "id": "5bdfd95d7e8436b2",
+            "id": "7013f8140a590a1a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,12 +64,13 @@
             }
           },
           {
-            "id": "190f5df9659221cd",
+            "id": "1544f49e17074d66",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
+              "title": "Bookmarks"
               "title": "Bookmarks"
             }
           }
@@ -80,20 +81,20 @@
     "width": 294.49999618530273
   },
   "right": {
-    "id": "8b41991008760fb7",
+    "id": "417a103aec83e957",
     "type": "split",
     "children": [
       {
-        "id": "e57e65310fbb56ec",
+        "id": "18342463bc0aebf6",
         "type": "tabs",
         "children": [
           {
-            "id": "86ac81d290d5811b",
+            "id": "b266e39b3f774edb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux嵌入式/07_阻塞和非阻塞 IO.md",
+                "file": "u-boot/00_编译分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 07_阻塞和非阻塞 IO"
+              "title": "Backlinks for 00_编译分析"
             }
           },
           {
-            "id": "7de1952613e12ea1",
+            "id": "58896d66d23c5515",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux嵌入式/07_阻塞和非阻塞 IO.md",
+                "file": "u-boot/00_编译分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 07_阻塞和非阻塞 IO"
+              "title": "Outgoing links from 00_编译分析"
             }
           },
           {
-            "id": "895be5e1819e486a",
+            "id": "faa0224910a703d8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,10 +132,11 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+              "title": "Tags"
             }
           },
           {
-            "id": "96853247a42a9385",
+            "id": "8dbff9a932bb5ab9",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -150,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
