@@ -1,8 +1,51 @@
+# 通用配置项
 
+![通用配置项](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_00.png)
+
+# boot配置项
+
+![boot配置项](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_01.png)
+
+在自动配置项中有自动boot倒计时时长和提示语
+
+![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_02.png)
+
+# 命令行接口
+
+![命令行接口](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_03.png)
+
+## boot命令重要配置项
+
+![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_04.png)
+
+## 环境变量命令重要配置项
+
+![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_05.png)
+
+## 内存命令重要配置项
+
+![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_06.png)
+
+## 设备访问命令配置项
+
+![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_07.png)
+
+
+## 网络命令
+
+![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_08.png)
+
+## 文件系统访问命令
+
+![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_09.png)
+
+# 设备树
+
+![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_10.png)
 
 # 环境变量
 
-## 一般配置项
+![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_11.png)
 
 ## 常用保存位置
 
@@ -18,6 +61,7 @@ CONFIG_ENV_EXT4_FILE="/uboot.env"
 CONFIG_ENV_EXT4_INTERFACE="mmc"
 ```
 
+![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_12.png)
 #### u-boot加载环境变量报错
 
 ```shell
