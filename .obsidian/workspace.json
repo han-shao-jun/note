@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "e8fe5e528c1e67fe",
+    "id": "552986a93f3dee3a",
     "type": "split",
     "children": [
       {
-        "id": "55d26548ea2fdb70",
+        "id": "5819c9b8a1fcac86",
         "type": "tabs",
         "children": [
           {
-            "id": "3c3c4be0fd46b815",
+            "id": "2e1dd14552e3dbd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cmake/10_库进阶用法.md",
+                "file": "linux内核/02_软中断.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_库进阶用法"
+              "title": "02_软中断"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "dcdb51367fe8ba3d",
+    "id": "933f9c8684933730",
     "type": "split",
     "children": [
       {
-        "id": "767b50bdebb6c836",
+        "id": "b68b424250b0290e",
         "type": "tabs",
         "children": [
           {
-            "id": "22d478a3266f3db9",
+            "id": "055eac74c5f09891",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +47,7 @@
             }
           },
           {
-            "id": "7013f8140a590a1a",
+            "id": "65ebae9cb68d44d9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,38 +64,37 @@
             }
           },
           {
-            "id": "1544f49e17074d66",
+            "id": "39e742e1af946af4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-              "title": "Bookmarks"
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 294.49999618530273
+    "width": 300
   },
   "right": {
-    "id": "417a103aec83e957",
+    "id": "c940a5c025882212",
     "type": "split",
     "children": [
       {
-        "id": "18342463bc0aebf6",
+        "id": "8d6a6efc63ab0800",
         "type": "tabs",
         "children": [
           {
-            "id": "b266e39b3f774edb",
+            "id": "ae4700f5548eefc1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "u-boot/00_编译分析.md",
-                "collapseAll": false,
+                "file": "linux内核/02_软中断.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 00_编译分析"
+              "title": "02_软中断 的反向链接列表"
             }
           },
           {
-            "id": "58896d66d23c5515",
+            "id": "be7ee750d93cbc9b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "u-boot/00_编译分析.md",
+                "file": "linux内核/02_软中断.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 00_编译分析"
+              "title": "02_软中断 的出链列表"
             }
           },
           {
-            "id": "faa0224910a703d8",
+            "id": "1548eb6c88fd1212",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,20 +130,19 @@
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
-              "title": "Tags"
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
-            "id": "8dbff9a932bb5ab9",
+            "id": "b4bedd7dca93d5e2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "cmake/10_库进阶用法.md"
+                "file": "linux内核/02_软中断.md"
               },
               "icon": "lucide-list",
-              "title": "10_库进阶用法 的大纲"
+              "title": "02_软中断 的大纲"
             }
           }
         ],
@@ -152,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,47 +163,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3c3c4be0fd46b815",
+  "active": "2e1dd14552e3dbd9",
   "lastOpenFiles": [
-    "cmake/11_生成器表达式.md",
-    "cmake/12目标和源文件属性.md",
-    "cmake/01_cmake命令行使用.md",
-    "cmake/02_变量.md",
-    "cmake/03_条件分支_循环.md",
-    "cmake/04_宏与函数.md",
-    "cmake/05_添加编译参数.md",
-    "cmake/06_创建静态库和动态库及其使用.md",
-    "cmake/10_库进阶用法.md",
-    "cmake/08_自定义目标与命令.md",
-    "cmake/07_交叉编译.md",
-    "cmake/00_创建基本工程.md",
-    "linux系统编程/05_io多路复用.md",
-    "linux系统编程/04_udp网络编程.md",
-    "linux系统编程/02_线程同步.md",
-    "linux系统编程/01_多线程入门.md",
-    "linux系统编程/00_文件IO.md",
-    "linux系统使用/03_文件结构.md",
-    "linux系统使用/04_demsg.md",
-    "linux系统使用/05_磁盘.md",
-    "linux系统使用/02_重定向，管道.md",
-    "lwip/02_移植(FreeRTOS).md",
-    "lwip/01_移植(NO_SYS).md",
-    "linux系统使用/01_环境准备.md",
-    "linux系统使用/杂七杂八/shell_bat小知识.md",
-    "c语言提高/03_printf实现.md",
-    "Pasted image 20241105233228.png",
-    "调试/JTAG调试",
-    "调试/gdb调试",
-    "调试",
-    "linux内核",
-    "Pasted image 20240704224208.png",
-    "Pasted image 20240702220033.png",
-    "开发工具/vscode",
-    "Pasted image 20240616170318.png",
-    "存储器",
-    "ARM架构",
-    "杂谈",
-    "linux系统使用/杂七杂八",
-    "计算机网络"
+    "u-boot/02_快速使用.md",
+    "u-boot/00_编译分析.md",
+    "linux内核/02_软中断.md",
+    "杂谈/02_shell_bat小知识.md",
+    "杂谈/01_linux内核各种config.md",
+    "杂谈/00_嵌入式linux专业术语.md"
   ]
 }
