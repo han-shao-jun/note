@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux内核/02_软中断.md",
+                "file": "cmake/02_变量.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_软中断"
+              "title": "02_变量"
             }
           }
         ]
@@ -165,9 +165,17 @@
   },
   "active": "2e1dd14552e3dbd9",
   "lastOpenFiles": [
+    "linux内核/01_系统调用.md",
+    "linux内核/00_initcal机制.md",
+    "linux内核/02_软中断.md",
+    "cmake/05_添加编译参数.md",
+    "cmake/03_条件分支_循环.md",
+    "cmake/04_宏与函数.md",
+    "cmake/02_变量.md",
+    "cmake/01_cmake命令行使用.md",
+    "cmake/00_创建基本工程.md",
     "u-boot/02_快速使用.md",
     "u-boot/00_编译分析.md",
-    "linux内核/02_软中断.md",
     "杂谈/02_shell_bat小知识.md",
     "杂谈/01_linux内核各种config.md",
     "杂谈/00_嵌入式linux专业术语.md"
