@@ -1,6 +1,5 @@
 # 通用配置项
-
-![通用配置项](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_00.png)
+![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/u-boot/01/u-boot_01_00.png)
 
 # boot配置项
 
