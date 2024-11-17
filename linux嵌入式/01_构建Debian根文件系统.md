@@ -323,7 +323,7 @@ echo 'resize' >> /etc/profile
 
 ```shell
 exit #退出回模拟环境到主机系统
-./mount.sh -u bullseye_rootfs/ #卸载设备
+./mount.sh -u bullseye_rootfs/ #卸载设备，必须执行，否则生成磁盘文件会失败
 sudo rm ./bullseye_rootfs/usr/bin/qemu-arm-static #arm32
 sudo rm ./bullseye_rootfs/usr/bin/qemu-aarch64-static #arm64
 sudo dd if=/dev/zero of=rootfs.ext4 bs=1M count=2048 #2048可以改成1024，上板卡后再调整根文件系统大小
