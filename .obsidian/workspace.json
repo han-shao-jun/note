@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "u-boot/10_链接器数组.md",
+                "file": "gcc编译器/01_常用编译参数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_链接器数组"
+              "title": "01_常用编译参数"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "u-boot/10_链接器数组.md"
+                "file": "gcc编译器/01_常用编译参数.md"
               },
               "icon": "lucide-list",
-              "title": "10_链接器数组 的大纲"
+              "title": "01_常用编译参数 的大纲"
             }
           }
         ],
@@ -154,24 +154,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
   "active": "621a24177e20745f",
   "lastOpenFiles": [
+    "gcc编译器/03_gnu__attribute__机制.md",
+    "linux内核/00_initcal机制.md",
+    "gcc编译器/00_源代码编译流程与编译器基本使用.md",
+    "gcc编译器/01_常用编译参数.md",
     "u-boot/09_启动流程_设备树扫描.md",
     "u-boot/10_链接器数组.md",
+    "u-boot/04_启动准备.md",
+    "u-boot/03_从零添加单板.md",
     "u-boot/11_uclass解析.md",
     "u-boot/14_驱动常用api.md",
     "u-boot/05_启动流程_board_f.md",
     "u-boot/06_串口初始化.md",
-    "u-boot/04_启动准备.md",
-    "u-boot/03_从零添加单板.md",
     "u-boot/02_快速使用.md",
     "u-boot/01_menuconfig配置项.md",
     "u-boot/00_编译分析.md",
@@ -181,14 +185,10 @@
     "2024-11-24.md",
     "linux嵌入式/01_构建Debian根文件系统.md",
     "linux系统使用/05_磁盘.md",
-    "linux内核/00_initcal机制.md",
-    "gcc编译器/03_gnu__attribute__机制.md",
     "u-boot/08_启动流程_board_r.md",
-    "gcc编译器/00_源代码编译流程与编译器基本使用.md",
     "c语言提高/01_预处理和宏.md",
     "c语言提高/02_可变参数.md",
     "c语言提高/03_printf实现.md",
-    "gcc编译器/01_常用编译参数.md",
     "gcc编译器/04_elf格式程序与程序的装载.md",
     "gcc编译器/06_Binutils的使用.md",
     "Pasted image 20241117195847.png"
