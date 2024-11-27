@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux内核/02_软中断.md",
+                "file": "gcc编译器/03_gnu__attribute__机制.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_软中断"
+              "title": "03_gnu__attribute__机制"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux内核/02_软中断.md"
+                "file": "gcc编译器/03_gnu__attribute__机制.md"
               },
               "icon": "lucide-list",
-              "title": "02_软中断 的大纲"
+              "title": "03_gnu__attribute__机制 的大纲"
             }
           }
         ],
@@ -164,6 +164,7 @@
   },
   "active": "621a24177e20745f",
   "lastOpenFiles": [
+    "linux内核/02_软中断.md",
     "gcc编译器/03_gnu__attribute__机制.md",
     "gcc编译器/01_常用编译参数.md",
     "linux内核/00_initcal机制.md",
@@ -190,7 +191,6 @@
     "c语言提高/02_可变参数.md",
     "c语言提高/03_printf实现.md",
     "gcc编译器/04_elf格式程序与程序的装载.md",
-    "gcc编译器/06_Binutils的使用.md",
     "Pasted image 20241117195847.png"
   ]
 }

@@ -66,5 +66,5 @@ int fun() __attribute__((alias("__fun")));
 
 ## __attribute__机制实战用例
 
-+ u-boot连接器数组
++ u-boot链接器器数组
 + Linux initcal
