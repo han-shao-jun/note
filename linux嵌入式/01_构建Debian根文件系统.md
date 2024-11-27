@@ -332,7 +332,7 @@ sudo mkfs.ext4 -L rootfs -d ./bullseye_rootfs rootfs.ext4 #生成磁盘文件
 
 ### eMMC/SD分区
 
-参考[[05_磁盘]] ，注意不同芯片支持的分区表不同，以下是利用fdisk命令创建MBR分区表并划分两个分区，boot分区fat32格式，rootfs分区ext4格式，分区完成拷贝制作文件到rootfs分区中
+参考[[05_磁盘]] ，注意不同芯片ROM BOOT程序支持的分区表不同，例如stm32mp157只支持GPT分区，ti am6442支持MBR分区。以下是利用fdisk命令创建MBR分区表并划分两个分区，boot分区fat32格式，rootfs分区ext4格式，分区完成拷贝制作文件到rootfs分区中
 ```shell
 #! /bin/sh
 
