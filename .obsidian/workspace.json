@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "45f204b5c9d1fffb",
+        "id": "3224ae805abf7d8f",
         "type": "tabs",
         "children": [
           {
-            "id": "be358feb1a533b42",
+            "id": "621a24177e20745f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发工具/vscode/01_PlatformIO_IDE.md",
+                "file": "u-boot/10_链接器数组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_PlatformIO_IDE"
+              "title": "10_链接器数组"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.49999618530273
+    "width": 325.49999618530273
   },
   "right": {
     "id": "c940a5c025882212",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux内核/02_软中断.md",
+                "file": "u-boot/10_驱动模型相关的链接脚本.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "02_软中断 的反向链接列表"
+              "title": "10_驱动模型相关的链接脚本 的反向链接列表"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux内核/02_软中断.md",
+                "file": "u-boot/10_驱动模型相关的链接脚本.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "02_软中断 的出链列表"
+              "title": "10_驱动模型相关的链接脚本 的出链列表"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发工具/vscode/01_PlatformIO_IDE.md"
+                "file": "u-boot/10_链接器数组.md"
               },
               "icon": "lucide-list",
-              "title": "01_PlatformIO_IDE 的大纲"
+              "title": "10_链接器数组 的大纲"
             }
           }
         ],
@@ -162,33 +162,35 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "be358feb1a533b42",
+  "active": "621a24177e20745f",
   "lastOpenFiles": [
-    "开发工具/vscode/00_gdb调试.md",
-    "开发工具/vscode/01_PlatformIO_IDE.md",
-    "Pasted image 20241117195847.png",
-    "[Installer.md",
-    "linux系统使用/01_环境准备.md",
-    "cmake/02_变量.md",
-    "cmake/05_添加编译参数.md",
-    "cmake/03_条件分支_循环.md",
-    "cmake/04_宏与函数.md",
-    "cmake/01_cmake命令行使用.md",
-    "cmake/00_创建基本工程.md",
-    "qt/01_环境搭建.md",
-    "qt/02_编译静态库.md",
-    "qt/03_Quazip库使用.md",
+    "u-boot/09_启动流程_设备树扫描.md",
+    "u-boot/10_链接器数组.md",
+    "u-boot/11_uclass解析.md",
+    "u-boot/14_驱动常用api.md",
+    "u-boot/05_启动流程_board_f.md",
+    "u-boot/06_串口初始化.md",
+    "u-boot/04_启动准备.md",
+    "u-boot/03_从零添加单板.md",
+    "u-boot/02_快速使用.md",
+    "u-boot/01_menuconfig配置项.md",
+    "u-boot/00_编译分析.md",
+    "u-boot/15_设备树添加i2c设备及其原理.md",
+    "gcc编译器/05_链接器.md",
+    "未命名.canvas",
+    "2024-11-24.md",
+    "linux嵌入式/01_构建Debian根文件系统.md",
+    "linux系统使用/05_磁盘.md",
+    "linux内核/00_initcal机制.md",
+    "gcc编译器/03_gnu__attribute__机制.md",
+    "u-boot/08_启动流程_board_r.md",
+    "gcc编译器/00_源代码编译流程与编译器基本使用.md",
     "c语言提高/01_预处理和宏.md",
     "c语言提高/02_可变参数.md",
     "c语言提高/03_printf实现.md",
-    "总线接口/08_PCIE.md",
-    "总线接口/09_USB.md",
-    "总线接口/01_串口(通用异步收发器_UART).md",
-    "杂谈/00_嵌入式linux专业术语.md",
-    "杂谈/01_linux内核各种config.md",
-    "杂谈/02_shell_bat小知识.md",
-    "linux系统使用/02_重定向，管道.md",
-    "linux系统使用/03_文件结构.md",
-    "linux系统使用/04_demsg.md"
+    "gcc编译器/01_常用编译参数.md",
+    "gcc编译器/04_elf格式程序与程序的装载.md",
+    "gcc编译器/06_Binutils的使用.md",
+    "Pasted image 20241117195847.png"
   ]
 }
