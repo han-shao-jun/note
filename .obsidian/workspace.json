@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gcc编译器/01_常用编译参数.md",
+                "file": "linux内核/02_软中断.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_常用编译参数"
+              "title": "02_软中断"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gcc编译器/01_常用编译参数.md"
+                "file": "linux内核/02_软中断.md"
               },
               "icon": "lucide-list",
-              "title": "01_常用编译参数 的大纲"
+              "title": "02_软中断 的大纲"
             }
           }
         ],
@@ -165,9 +165,9 @@
   "active": "621a24177e20745f",
   "lastOpenFiles": [
     "gcc编译器/03_gnu__attribute__机制.md",
+    "gcc编译器/01_常用编译参数.md",
     "linux内核/00_initcal机制.md",
     "gcc编译器/00_源代码编译流程与编译器基本使用.md",
-    "gcc编译器/01_常用编译参数.md",
     "u-boot/09_启动流程_设备树扫描.md",
     "u-boot/10_链接器数组.md",
     "u-boot/04_启动准备.md",
