@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发工具/vscode/01_PlatformIO_IDE.md",
+                "file": "u-boot/02_快速使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_PlatformIO_IDE"
+              "title": "02_快速使用"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.49999618530273
+    "width": 289.5
   },
   "right": {
     "id": "c940a5c025882212",
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发工具/vscode/01_PlatformIO_IDE.md"
+                "file": "u-boot/02_快速使用.md"
               },
               "icon": "lucide-list",
-              "title": "01_PlatformIO_IDE 的大纲"
+              "title": "Outline of 02_快速使用"
             }
           }
         ],
@@ -164,8 +164,20 @@
   },
   "active": "be358feb1a533b42",
   "lastOpenFiles": [
-    "开发工具/vscode/00_gdb调试.md",
+    "linux系统使用/03_文件结构.md",
+    "linux系统使用/04_demsg.md",
+    "linux系统使用/05_磁盘.md",
+    "linux嵌入式/10_平台设备和平台驱动匹配流程.md",
+    "linux嵌入式/09_并发与共享资源保护.md",
+    "linux嵌入式/06_动态内存分配.md",
+    "linux嵌入式/05_字符设备驱动.md",
+    "linux嵌入式/04_驱动入门知识.md",
+    "linux嵌入式/03_构建BuildRoot根文件系统.md",
+    "linux嵌入式/02_构建BusyBox根文件系统.md",
+    "linux嵌入式/01_构建Debian根文件系统.md",
+    "linux嵌入式/00_系统启动基本流程.md",
     "开发工具/vscode/01_PlatformIO_IDE.md",
+    "开发工具/vscode/00_gdb调试.md",
     "Pasted image 20241117195847.png",
     "[Installer.md",
     "linux系统使用/01_环境准备.md",
@@ -178,17 +190,6 @@
     "qt/01_环境搭建.md",
     "qt/02_编译静态库.md",
     "qt/03_Quazip库使用.md",
-    "c语言提高/01_预处理和宏.md",
-    "c语言提高/02_可变参数.md",
-    "c语言提高/03_printf实现.md",
-    "总线接口/08_PCIE.md",
-    "总线接口/09_USB.md",
-    "总线接口/01_串口(通用异步收发器_UART).md",
-    "杂谈/00_嵌入式linux专业术语.md",
-    "杂谈/01_linux内核各种config.md",
-    "杂谈/02_shell_bat小知识.md",
-    "linux系统使用/02_重定向，管道.md",
-    "linux系统使用/03_文件结构.md",
-    "linux系统使用/04_demsg.md"
+    "c语言提高/01_预处理和宏.md"
   ]
 }
