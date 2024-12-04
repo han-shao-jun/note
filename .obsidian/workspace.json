@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "45f204b5c9d1fffb",
+        "id": "ab205d2de3ebac77",
         "type": "tabs",
         "children": [
           {
-            "id": "be358feb1a533b42",
+            "id": "d10ba5857cedd518",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux内核/02_软中断.md",
+                "file": "u-boot/10_驱动模型相关的链接脚本.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "02_软中断 的反向链接列表"
+              "title": "10_驱动模型相关的链接脚本 的反向链接列表"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux内核/02_软中断.md",
+                "file": "u-boot/10_驱动模型相关的链接脚本.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "02_软中断 的出链列表"
+              "title": "10_驱动模型相关的链接脚本 的出链列表"
             }
           },
           {
@@ -154,42 +154,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "be358feb1a533b42",
+  "active": "d10ba5857cedd518",
   "lastOpenFiles": [
-    "linux系统使用/03_文件结构.md",
-    "linux系统使用/04_demsg.md",
-    "linux系统使用/05_磁盘.md",
-    "linux嵌入式/10_平台设备和平台驱动匹配流程.md",
-    "linux嵌入式/09_并发与共享资源保护.md",
+    "linux内核/02_软中断.md",
+    "linux内核/01_系统调用.md",
+    "linux内核/00_initcal机制.md",
+    "linux嵌入式/13_中断子系统.md",
     "linux嵌入式/06_动态内存分配.md",
-    "linux嵌入式/05_字符设备驱动.md",
-    "linux嵌入式/04_驱动入门知识.md",
-    "linux嵌入式/03_构建BuildRoot根文件系统.md",
-    "linux嵌入式/02_构建BusyBox根文件系统.md",
-    "linux嵌入式/01_构建Debian根文件系统.md",
-    "linux嵌入式/00_系统启动基本流程.md",
-    "开发工具/vscode/01_PlatformIO_IDE.md",
+    "u-boot/03_从零添加单板.md",
+    "u-boot/02_快速使用.md",
+    "u-boot/05_启动流程_board_f.md",
+    "u-boot/04_启动准备.md",
+    "u-boot/01_menuconfig配置项.md",
+    "u-boot/00_编译分析.md",
     "开发工具/vscode/00_gdb调试.md",
-    "Pasted image 20241117195847.png",
-    "[Installer.md",
-    "linux系统使用/01_环境准备.md",
+    "开发工具/vscode/01_PlatformIO_IDE.md",
     "cmake/02_变量.md",
     "cmake/05_添加编译参数.md",
-    "cmake/03_条件分支_循环.md",
     "cmake/04_宏与函数.md",
     "cmake/01_cmake命令行使用.md",
     "cmake/00_创建基本工程.md",
-    "qt/01_环境搭建.md",
-    "qt/02_编译静态库.md",
-    "qt/03_Quazip库使用.md",
-    "c语言提高/01_预处理和宏.md"
+    "cmake/06_创建静态库和动态库及其使用.md",
+    "cmake/03_条件分支_循环.md",
+    "gcc编译器/00_源代码编译流程与编译器基本使用.md",
+    "gcc编译器/03_gnu__attribute__机制.md",
+    "gcc编译器/01_常用编译参数.md",
+    "u-boot/09_启动流程_设备树扫描.md",
+    "u-boot/10_链接器数组.md",
+    "u-boot/11_uclass解析.md",
+    "未命名.canvas",
+    "Pasted image 20241117195847.png"
   ]
 }
