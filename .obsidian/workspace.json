@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.49999618530273
+    "width": 253.49999618530273
   },
   "right": {
     "id": "c940a5c025882212",
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cmake/07_交叉编译.md"
+                "file": "开发工具/vscode/01_PlatformIO_IDE.md"
               },
               "icon": "lucide-list",
-              "title": "07_交叉编译 的大纲"
+              "title": "01_PlatformIO_IDE 的大纲"
             }
           }
         ],
