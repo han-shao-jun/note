@@ -69,10 +69,10 @@ endif ()
 ```cmake
 set(CMAKE_PREFIX_PATH C:/Programs/Qt6.5.3/6.5.3/msvc2022_64_static)
 ```
-\
-修改quazip文件夹下CMakeListx.txt，主要是修改编译静态和动态库\
 
-```
+修改quazip文件夹下CMakeListx.txt，主要是修改编译静态和动态库
+
+```cmake
 if (BUILD_SHARED_LIBS)
     add_library(${QUAZIP_LIB_TARGET_NAME} SHARED ${QUAZIP_SOURCES})
 else ()
@@ -94,7 +94,7 @@ quazip库只需要以下文件和文件夹
 
 ![](https://blog-1305120110.cos.ap-shanghai.myqcloud.com/qt/03/qt_03_13.png)
 
-准备下源文件，文件路径是情况修改
+准备下源文件，文件路径视情况修改
 ```cpp
 #include <quazip/JlCompress.h>
   
