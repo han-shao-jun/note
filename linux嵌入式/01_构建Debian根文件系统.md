@@ -58,12 +58,12 @@ sudo cp /usr/bin/qemu-aarch64-static ./bullseye_rootfs/usr/bin/  #arm64
 #!/bin/bash
 
 function mnt() {
-    echo "MOUNTING"
     if [[ "${2}" != */ ]]; then
         path="${2}/"
     else 
         path="${2}"
     fi
+    echo "mounting ${path}"
     sudo mount -t proc /proc ${path}proc
     sudo mount -t sysfs /sys ${path}sys
     sudo mount -o bind /dev ${path}dev
@@ -72,12 +72,12 @@ function mnt() {
 }
 
 function umnt() {
-    echo "UNMOUNTING"
     if [[ "${2}" != */ ]]; then
         path="${2}/"
     else 
         path="${2}"
     fi
+    echo "unmounting ${path}"
     sudo umount ${path}proc
     sudo umount ${path}sys
     sudo umount ${path}dev/pts
@@ -130,7 +130,6 @@ apt install systemd
 ## 定制文件系统
 
 * 配置locales，语言服务，在交互界面中选择en_US.UTF-8和zh_CN.UTF-8后，点击下方接下来的默认locale配置中，选择en_US.UTF-8（此处根据需要配置）如果是ssh链接linux在终端中选择编号，在桌面环境中是直接列表选择158 en_US.UTF-8 487 
-* 
 * zh_CN.UTF-8，建议直接使用vscode的终端图形效果好一些
 
 ```shell
@@ -197,7 +196,7 @@ EOF
 chmod u+s /bin/ping
 ```
 
-* 创建普通用户
+* 创建普通用户，并加入sudo组
 
 ```shell
 USER=super
